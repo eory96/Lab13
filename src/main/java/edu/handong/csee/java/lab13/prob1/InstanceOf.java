@@ -1,4 +1,4 @@
-package edu.handong.csee.java.lab13.prob1;
+package edu.handong.csee.java.lab13.prob1;//prob1 package
 
 public class InstanceOf {//this class divide kind of friend
 	public static void WhatFriend(Friend friend){//this method is for divide kind of friend

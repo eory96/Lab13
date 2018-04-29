@@ -1,4 +1,4 @@
-package edu.handong.csee.java.lab13.prob1;
+package edu.handong.csee.java.lab13.prob1;//prob1 package
 
 public class Prob1 {//this class is main class
 
