@@ -1,6 +1,6 @@
-package edu.handong.csee.java.lab13.prob5;
+package edu.handong.csee.java.lab13.prob5;//prob5 package
 
-import java.util.Scanner;
+import java.util.Scanner;//import Scanner package for using keyboard
 
 public class Main {//this it main class
 
