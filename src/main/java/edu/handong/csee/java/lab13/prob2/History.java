@@ -1,4 +1,4 @@
-package edu.handong.csee.java.lab13.prob2;
+package edu.handong.csee.java.lab13.prob2;//prob2 package
 
 public class History extends Book{// this class inherit from Book class
 	private String author;//store name of Author

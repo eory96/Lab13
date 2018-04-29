@@ -1,4 +1,4 @@
-package edu.handong.csee.java.lab13.prob2;
+package edu.handong.csee.java.lab13.prob2;//prob2 package
 
 public class Book {//this class parent class of History and Science class
 	private int id=0;//this is for numbering
