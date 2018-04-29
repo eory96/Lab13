@@ -1,4 +1,4 @@
-package edu.handong.csee.java.lab13.prob3;
+package edu.handong.csee.java.lab13.prob3;//prob3 package
 
 import java.util.Scanner;//use for scanner class
 

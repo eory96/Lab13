@@ -1,4 +1,4 @@
-package edu.handong.csee.java.lab13.prob3;
+package edu.handong.csee.java.lab13.prob3;//prob3 package
 
 public class Rectangle extends Shape{//this class inherit from Shape class
 	private double width;//variable for receive width data and store value
