@@ -1,7 +1,7 @@
 package edu.handong.csee.java.lab13.prob4;
 
-public class Cat extends Animal implements Pet{
-	public String food() {
-		return "(Cat!)"+"Fish";
+public class Cat extends Animal implements Pet{//it's parent class Animal and pet inherit Animal
+	public String food() {//return type string method
+		return "(Cat!)"+"Fish";//return "(Dog!)"+"Sausage"
 	}
 }
