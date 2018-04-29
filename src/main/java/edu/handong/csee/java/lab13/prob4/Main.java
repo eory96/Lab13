@@ -1,4 +1,4 @@
-package edu.handong.csee.java.lab13.prob4;
+package edu.handong.csee.java.lab13.prob4;//prob4 package
 import java.util.Scanner;//import Scanner package for inputing data
 
 public class Main {//this is main class

@@ -1,4 +1,4 @@
-package edu.handong.csee.java.lab13.prob4;
+package edu.handong.csee.java.lab13.prob4;//prob4 package
 
 public class Master {//this is master class 
 	public void feed(Pet pet){//this method parameter type is class type 
