@@ -15,7 +15,7 @@ public class Equals {//this class compare to m1-2d array and m2-2d array
 		}
 		if(count <= 3)//if count is less than 3
 			return true;//return true
-		else
+		else//if count is more than 3
 			return false;//return false
 	}
 }

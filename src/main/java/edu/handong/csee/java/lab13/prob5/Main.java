@@ -45,7 +45,7 @@ public class Main {//this it main class
 		}
 		System.out.println();//print out enter
 		
-		Equals compareMachine = new Equals();
+		Equals compareMachine = new Equals();//instantiation Equals class to compareMachine
 		
 		if (compareMachine.compareEquals(m1, m2)) //compare m1 and m2 array
 			System.out.println("The two arrays are approximately identical.");//if m1 and m2 same printout "The two arrays are approximately identical."
