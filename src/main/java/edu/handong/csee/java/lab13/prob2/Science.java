@@ -7,10 +7,10 @@ public class Science extends Book{// this class inherit from Book class
 		this.publisher = publisher;//publisher is stored to this class publisher
 	}
 	
-	public String toString() {//this method for return book name, id, and publisher
-		return super.toString()+"\npublisher: "+publisher;//return parent class toString method and publisher
+	public String defineString() {//this method for return book name, id, and publisher
+		return super.defineString()+"\npublisher: "+publisher;//return parent class toString method and publisher
 	}
 	public void show() {//printout name, id, publisher method
-		System.out.println("<<<Science>>>"+ toString());//print out <<<History>>> and parent class toString method and pulisher
+		System.out.println("<<<Science>>>"+ defineString());//print out <<<History>>> and parent class toString method and pulisher
 	}
 }

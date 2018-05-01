@@ -12,6 +12,7 @@ public class Main {//this it main class
 		System.out.print("Enter column size(maximum 5): ");//printout "Enter column size(maximum 5): "
 		n2 = keyboard.nextInt();//save column size to n2
 		int[][] m1 = new int[n1][n2];//make array (row size n1 column size n2)
+		
 		System.out.print("Enter row size(maximum 5): ");//print out "Enter row size(maximum 5): "
 		n1 = keyboard.nextInt();//save row size to n1
 		System.out.print("Enter column size(maximum 5): ");//print out "Enter column size(maximum 5): "
@@ -44,8 +45,9 @@ public class Main {//this it main class
 		}
 		System.out.println();//print out enter
 		
+		Equals compareMachine = new Equals();
 		
-		if (m1.equals(m2)) //compare m1 and m2 array
+		if (compareMachine.compareEquals(m1, m2)) //compare m1 and m2 array
 			System.out.println("The two arrays are approximately identical.");//if m1 and m2 same printout "The two arrays are approximately identical."
 		else //m1 and m2 is not same
 			System.out.println("The two arrays are not identical");//printout "The two arrays are not identical"

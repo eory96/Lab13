@@ -7,8 +7,8 @@ public class History extends Book{// this class inherit from Book class
 		this.author = author;//Author is stored to this class Author
 	}
 	
-	public String toString() {//this method for return book name, id, and Author
-		return super.toString()+"\nAuthor: "+author;//return parent class toString method and Author
+	public String defineString() {//this method for return book name, id, and Author
+		return super.defineString()+"\nAuthor: "+author;//return parent class toString method and Author
 	}
 	public void show() {//this method print out name, id, Author
 		System.out.println("<<<History>>>"+ toString());//print out <<<History>>> and parent class toString method and Author

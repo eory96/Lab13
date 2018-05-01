@@ -13,7 +13,7 @@ public class Main {//this is main class
 		radius = keyboard.nextDouble();//input radius data
 		Circle c1 = new Circle(radius);//instantiation Circle to c1
 		System.out.println("Radius: "+ radius);//print out "Radius: " and value of radius
-		c1.display();//call a c1(Circle) method display
+		c1.displayrResult();//call a c1(Circle) method display
 		
 		System.out.print("Enter height and width: ");//print out "Enter height and width : "
 		height = keyboard.nextDouble();//input height data
@@ -21,7 +21,7 @@ public class Main {//this is main class
 		Rectangle r1 = new Rectangle(height, width);//instantiation Rectangle to r1
 		System.out.println("Height: "+ height);//print out "Height" and value of height
 		System.out.println("Width: "+width);//print out "Width" and value of width
-		r1.display();//call a r1(Rectangle) method display
+		r1.displayrResult();//call a r1(Rectangle) method display
 
 	}
 

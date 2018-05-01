@@ -1,7 +1,8 @@
 package edu.handong.csee.java.lab13.prob5;//prob5 package
 
 public class Equals {//this class compare to m1-2d array and m2-2d array
-	public static boolean equals(int[][] m1, int[][] m2) {//this method don't have to initiate 
+	
+	public static boolean compareEquals(int[][] m1, int[][] m2) {//this method don't have to initiate 
 		int count = 0;//variable for count number of same
 		if (m1.length != m2.length) // if the number of row is different, return false
 		return false;//return false

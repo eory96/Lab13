@@ -17,11 +17,11 @@ public class Main {//this is main class
 
 		cat.setName(cat_name);//send name of cat to cat class's parent class
 		cat.getName();//get name from cat class's parent class
-		master.feed(cat);//print out food information about cat
+		master.whatEatTheFood(cat);//print out food information about cat
 
 		dog.setName(dog_name);//send name of cat to Dog class's parent class
 		dog.getName();//get name from Dog class's parent class
-		master.feed(dog);//print out food information about dog
+		master.whatEatTheFood(dog);//print out food information about dog
 	}
 
 }

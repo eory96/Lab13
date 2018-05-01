@@ -10,11 +10,11 @@ public class Book {//this class parent class of History and Science class
 		idPluse++;//increase idPluse
 		id+=idPluse;//counting up
 	}
-	public String toString() {//this method for return book name and id
+	public String defineString() {//this method for return book name and id
 		return "\nId: "+ id + "\nBook Name: " + bookName;//return id and book name
 	}
 	public void show() {//this method is invoked by main class
-		System.out.println("<<<BOOK>>>"+ toString());//printout <<<BOOK>>>and return of toString
+		System.out.println("<<<BOOK>>>"+ defineString());//printout <<<BOOK>>>and return of toString
 	}
 
 }

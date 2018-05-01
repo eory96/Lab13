@@ -9,10 +9,10 @@ public class Rectangle extends Shape{//this class inherit from Shape class
 		this.height = height;//initialize this class height to height 
 	}
 
-	public double perimeter() {//calculate rectangular perimeter
+	public double calculatePerimeter() {//calculate rectangular perimeter
 		return 2*(width+height);//return perimeter of rectangular
 	}
-	public double area() {//calculate rectangular area
+	public double calculateArea() {//calculate rectangular area
 		return width*height;//return perimeter of rectangular
 	}
 }

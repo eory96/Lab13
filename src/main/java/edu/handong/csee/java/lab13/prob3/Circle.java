@@ -7,10 +7,10 @@ public class Circle extends Shape {// this class inherit from Shape class
 		this.radius = radius;//initialize this class radius to radius 
 	}
 	
-	public double area() {//calculate circle area
+	public double calculateArea() {//calculate circle area
 		return radius*radius*3.14;//return circle area value
 	}
-	public double perimeter() {//calculate circle perimeter
+	public double calculatePerimeter() {//calculate circle perimeter
 		return 2*radius*3.14;//return circle perimeter
 	}
 }
