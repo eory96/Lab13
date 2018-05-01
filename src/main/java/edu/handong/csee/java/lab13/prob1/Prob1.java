@@ -8,9 +8,9 @@ public class Prob1 {//this class is main class
 		SchoolFriend friend2 = new SchoolFriend();//instanciation SchoolFriend class to friend2
 		ClassFriend friend3 = new ClassFriend();//instanciation ClassFriend class to friend3
 
-		InstanceOf.WhatFriend(friend1);//print out "just friend" this call method of Friend class
-		InstanceOf.WhatFriend(friend2);//print out "School friend" this call method of schoolFriend class
-		InstanceOf.WhatFriend(friend3);//print out "Class friend" this call method of classFriend class
+		InstanceOf.whatFriend(friend1);//print out "just friend" this call method of Friend class
+		InstanceOf.whatFriend(friend2);//print out "School friend" this call method of schoolFriend class
+		InstanceOf.whatFriend(friend3);//print out "Class friend" this call method of classFriend class
 
 	}
 
